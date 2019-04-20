@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "server": "env-cmd ./config/dev.env nodemon src/index.js",
-    "client": "npm start --prefix client",
+    "client": "npm start --prefix src/client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
