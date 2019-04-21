@@ -5,6 +5,7 @@ import "./App.css"
 import NavBar from "./NavBar/NavBar";
 import SideDrawer from "./SideDrawer/SideDrawer";
 import Backdrop from "./Backdrop/Backdrop";
+import Home from "./Home/Home"
 
 class App extends Component {
   state = {
@@ -32,6 +33,7 @@ class App extends Component {
         <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
+        <Home />
       </div>
     );
   }

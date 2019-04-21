@@ -12,19 +12,13 @@ const SideDrawer = props => {
         <nav className={drawerClasses}>
             <ul>
                 <li>
-                    <a href="/spi_dev">Solutions</a>
+                    <a href="/spi_dev">Products</a>
                 </li>
                 <li>
-                    <a href="/spi_dev">Industries</a>
+                    <a href="/spi_dev">Contact</a>
                 </li>
                 <li>
-                    <a href="/spi_dev">SPI University</a>
-                </li>
-                <li>
-                    <a href="/spi_dev">Company</a>
-                </li>
-                <li>
-                    <a href="/spi_dev">Contact Us</a>
+                    <a href="/spi_dev">Sign In</a>
                 </li>
             </ul>
         </nav>

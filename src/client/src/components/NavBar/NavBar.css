@@ -57,7 +57,6 @@
   margin-right: 10px;
   font-weight: bold;
   text-shadow: 0px -1px #000, 0px 1px #000, 1px 0 #000, -1px 0 #000;
-  /* background: linear-gradient(-35deg, #fff 55%, #565552 72%); */
 }
 
 @media (max-width: 768px) {
@@ -75,6 +74,14 @@
     display: none;
   }
 
+  .navbar_navigation-items {
+    margin-top: 1.2rem;
+  }
+
+  .navbar {
+    position: relative;
+  }
+  
   .dj__icon {
     margin-left: 0;
     text-decoration: none;
@@ -91,11 +98,5 @@
 
 @media (min-width: 1024px) {
 
-  .navbar {
-    position: relative;
-  }
-
-  .navbar_navigation-items {
-    margin-top: 1.2rem;
-  }
+  
 }

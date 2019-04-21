@@ -8,9 +8,6 @@ import logo from "../../img/logo.svg"
 const NavBar = props => (
   <header className="navbar">
     <nav className="navbar__navigation">
-      <div className="navbar__toggle-button">
-        <DrawerToggleButton click={props.drawerClickHandler} />
-      </div>
       <div className="navbar__logo">
         <a href="/spi_dev">
           <img className="dj__icon" src={logo} alt="logo" />
@@ -18,6 +15,9 @@ const NavBar = props => (
         </a>
       </div>
       <div className="spacer" />
+      <div className="navbar__toggle-button">
+        <DrawerToggleButton click={props.drawerClickHandler} />
+      </div>
       <div className="navbar_navigation-items">
         <ul>
           <li>
