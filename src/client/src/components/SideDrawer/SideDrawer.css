@@ -1,0 +1,60 @@
+.side-drawer {
+  height: 100%;
+  background: rgba(116, 116, 116, 1);
+  box-shadow: 3px 0 2px rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 150;
+  transform: translateX(-102%);
+  transition: transform 0.5s ease-out;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.side-drawer ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.side-drawer li {
+  margin: 1rem;
+  text-align: center;
+}
+
+.side-drawer a {
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 2.5rem;
+  transition: all 0.3s;
+  padding: 0 5px;
+  text-shadow: 0px -1px #000, 0px 1px #000, 1px 0 #000, -1px 0 #000;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active {
+  color: #009ddb;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: 0px -1px #000, 0px 1px #000, 1px 0 #000, -1px 0 #000,
+    0 -4px 3px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(0deg, #2bb885 55%, rgba(116, 116, 116, 0.1) 72%);
+  border-bottom: 2px solid #000;
+  box-shadow: 0 6px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 400px) {
+  .side-drawer {
+    position: absolute;
+    padding-bottom: 30px;
+  }
+}

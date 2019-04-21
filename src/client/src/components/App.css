@@ -1,0 +1,8 @@
+.wrapper {
+    height: 100vh;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgba(86, 85, 82,  0.6) 35%, rgba(0,0,0, 0) 42%),url("../img/lander-1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
